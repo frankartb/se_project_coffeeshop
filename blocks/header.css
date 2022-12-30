@@ -7,14 +7,15 @@
     min-height: 720px;
     max-height: 800px;
     height: 100vh;
+    box-sizing: border-box;
 
 }
 
 .logo {
     width: 125px;
     height: 142px;
-    margin-top: 30px;
-    margin-left: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 .nav {
@@ -28,8 +29,8 @@
     flex-direction: row;
     display: flex;
     justify-content: space-between;
-    margin-right: 80px;
-    margin-top: 30px;
+    padding-right: 80px;
+    padding-top: 30px;
     column-gap: 20px;
     font-weight: 500;
 }
@@ -47,9 +48,9 @@
   }
 
   .header__title {
-    margin-left: 80px;
+    padding-left: 80px;
     max-width: 729px;
-    margin-top: 80px;
+    padding-top: 80px;
     text-align: left;
     font-family: Inter;
     font-style: normal;
@@ -70,13 +71,14 @@
 
   .header__description {
     max-width: 683px;
-    margin-left: 80px;
+    padding-left: 80px;
     font-family: Noto Serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
   }
+
 
   .header__image {
     width: 646px;
@@ -86,21 +88,26 @@
     right: 5px;
 }
 
-.header__footer_hours {
-  position: absolute;
-  bottom: 40px;
-  left: 80px;
+.header__footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+
 }
 
-.header__footer_address {
-position: absolute;
-bottom: 40px;
-right: 80px;
+.header__hours {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 
-.header__paragraph {
-  font-weight: 500;
-  line-height: 20px;
-  color:#6f6f6f
+.header__address {
+list-style: none;
+
 }
+
+
 

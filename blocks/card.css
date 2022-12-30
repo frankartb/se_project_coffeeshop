@@ -1,0 +1,43 @@
+.menu__cards {
+max-width: 1300px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin-left: auto;
+margin-right: auto;
+padding-top: 100px;
+padding-bottom: 100px;
+
+}
+
+.card {
+max-width: 600px;
+display: flex;
+flex-direction: column;
+width: 100%;
+row-gap: 16px;
+
+}
+
+.card__title {
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+}
+
+
+.card__list-item {
+list-style: none;
+font-family: Noto Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+flex-basis: 100%;
+}
+
+.card__list-divider {
+border: bottom 1px white solid;
+flex-grow: 1;
+}
