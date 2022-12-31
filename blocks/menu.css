@@ -16,8 +16,7 @@
   font-family: Inter;
   font-style: normal;
   line-height: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 0 auto;
 }
 
 .menu__subtitle {
