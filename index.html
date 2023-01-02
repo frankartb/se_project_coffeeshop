@@ -6,8 +6,8 @@
     <meta name="author" content="Ben Frankart" />
     <meta name="description" content="Coffee served in the Practicum Library" />
     <meta name="keywords" content="Coffee, library, cafe, barista" />
-    <link rel="stylesheet" href="/pages/index.css" />
-    <link rel="icon" href="favion.ico" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" href="./favion.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,16 +25,16 @@
         />
         <ul class="nav__links">
           <li>
-            <a href="#" class="nav__link">Menu</a>
+            <a href="#menu" class="nav__link">Menu</a>
           </li>
           <li>
-            <a href="#" class="nav__link">Recipes</a>
+            <a href="#recipes" class="nav__link">Recipes</a>
           </li>
           <li>
-            <a href="#" class="nav__link">Book a table</a>
+            <a href="#reservation" class="nav__link">Book a table</a>
           </li>
           <li>
-            <a href="#" class="nav__link">Contacts</a>
+            <a href="#about" class="nav__link">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -65,7 +65,7 @@
       </div>
     </header>
     <main class="main">
-      <section class="menu">
+      <section class="menu" id="menu">
         <h2 class="menu__title">Menu</h2>
         <p class="menu__subtitle">
           We brew coffee from locally roasted, Fairtrade certified beans and use
@@ -132,7 +132,7 @@
           </ul>
         </div>
       </section>
-      <section class="recipes">
+      <section class="recipes" id="recipes">
         <h2 class="recipes__title">Recipes</h2>
         <p class="recipes__subtitle">
           Check out some recipes we've collected for your home-brewing
@@ -169,7 +169,7 @@
           </div>
         </div>
       </section>
-      <section class="reservation">
+      <section class="reservation" id="reservation">
         <h1 class="reservation__title">Book a table</h1>
         <form class="reservation__form form">
           <fieldset class="form__fieldset">
@@ -209,22 +209,71 @@
           <fieldset class="form__fieldset form__fieldset_type_buttons">
             <button type="submit" class="form__button">Book a table</button>
             <div class="form__checkbox_container">
-            <input
-              class="form__input_type_checkbox"
-              type="checkbox"
-              id="agreement_checkbox"
-            >
-            <label
-              for="agreement checkbox"
-              class="form__input_type_checkbox_label"
-              >I agree with the terms of use</label>
-          </div>
-            </fieldset>
+              <input
+                class="form__input_type_checkbox"
+                type="checkbox"
+                id="agreement_checkbox"
+              />
+              <label
+                for="agreement checkbox"
+                class="form__input_type_checkbox_label"
+                >I agree with the terms of use</label
+              >
+            </div>
           </fieldset>
         </form>
       </section>
-      <section class="about"></section>
+      <section class="about" id="about">
+        <h1 class="about__title">About the coffee shop</h1>
+        <div class="about__content">
+          <p class="about__paragraph">
+            Our coffee shop is located in the Practicum Library's hall. It
+            features 6 tables and free WiFi.
+          </p>
+          <p class="about__paragraph">
+            Our main mission is keeping guests cozy and energized. <br />
+            <br />
+            Besides that, we try to reduce our environmental impact — so we
+            don't sell single-use cups. But you can buy one of our reusable
+            cups!
+          </p>
+        </div>
+        <div class="about__circle"></div>
+        <div class="about__circle about__circle_animation_blurred"></div>
+      </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__column_logo footer__column">
+          <img
+            class="footer__logo"
+            src="./images/practicum_logo.svg"
+            alt="practicum_logo"
+          />
+        </div>
+        <div class="footer__column_social footer__column">
+          <h4 class="footer__column_social-heading">Social media</h4>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <img
+                class="footer__column_social-icon"
+                src="./images/facebook_white.svg"
+                alt="facebook_logo"
+              />
+              <a class="footer__column_social-link" href="#">Facebook</a>
+            </li>
+            <li class="footer__list-item">
+              <img
+                class="footer__column_social-icon"
+                src="./images/instagram_white.svg"
+                alt="instagram_logo"
+              />
+              <a class="footer__column_social-link" href="#">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copyright">&copy Ben Frankart 2022</p>
+    </footer>
   </div>
 </html>
