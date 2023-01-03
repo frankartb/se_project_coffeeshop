@@ -39,7 +39,7 @@
   flex-direction: column;
 }
 
-.form__checkbox_container {
+.form__checkbox-container {
   display: flex;
   justify-content: center;
   gap: 12px;
@@ -64,7 +64,7 @@
   transition: all 0.75s ease;
 }
 
-.form__input_type_checkbox {
+.form__checkbox {
   border-radius: 2px;
   width: 20px;
   height: 20px;
