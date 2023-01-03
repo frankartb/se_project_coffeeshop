@@ -43,7 +43,7 @@
 }
 
 .about__paragraph {
-  font-family: Noto Serif;
+  font-family: Noto serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -63,5 +63,5 @@
 }
 
 .about__circle_animation_blurred {
-  animation: pulse 1.3s ease-in-out 0s infinite alternate-reverse;
+  animation: pulse 1.3s ease-in-out 0s infinite;
 }
