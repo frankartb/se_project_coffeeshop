@@ -22,7 +22,7 @@
   gap: 10px;
 }
 
-.footer__column_social_heading {
+.footer__column-heading {
   color: white;
   text-align: right;
   margin: 0;
@@ -54,18 +54,18 @@
   margin-bottom: 0px;
 }
 
-.footer__column_social_icon {
+.footer__column-icon {
   width: 16px;
   height: 16px;
 }
 
-.footer__column_social_link {
+.footer__column-link {
   text-decoration: none;
   margin-left: 10px;
   color: white;
 }
 
-.footer__column_social_link:hover {
+.footer__column-link:hover {
   color: #c1c1c1;
   transition: all ease 1s;
 }
