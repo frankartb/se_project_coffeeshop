@@ -1,20 +1,11 @@
 .card {
   max-width: 600px;
-  min-width: 600px;
-  display: flex;
-  flex-direction: column;
-}
-
-.card:first-of-type {
-  padding-right: 100px;
-}
-.card:last-of-type {
-  margin-top: 100px;
+  flex-basis: 100%;
 }
 
 .card__title {
-  margin-bottom: 32px;
-  font-family: Inter;
+  margin: 0px 0px 32px 0px;
+  font-family: Inter, "Times New Roman", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -29,7 +20,8 @@
 .card__list-item {
   display: flex;
   margin-top: 16px;
-  font-family: Noto serif;
+  font-family: Noto, "Arial", serif;
+  gap: 10px;
 }
 
 .card__list-divider {
