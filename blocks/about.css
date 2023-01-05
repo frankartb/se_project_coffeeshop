@@ -9,7 +9,7 @@
 
   100% {
     transform: scale(1.15);
-    opacity: 100%;
+    opacity: 0%;
   }
 }
 
@@ -26,9 +26,7 @@
   margin-top: 100px;
   margin-left: 80px;
   margin-bottom: 0px;
-  display: flex;
-  flex-wrap: wrap;
-  font-family: Inter, "Times New Roman", serif;
+  font-family: Inter, "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -46,7 +44,7 @@
 }
 
 .about__paragraph {
-  font-family: Noto, "Arial", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

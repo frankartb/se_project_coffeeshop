@@ -1,11 +1,11 @@
 .card {
   max-width: 600px;
-  flex-basis: 100%;
+  flex-basis: 40%;
 }
 
 .card__title {
   margin: 0px 0px 32px 0px;
-  font-family: Inter, "Times New Roman", serif;
+  font-family: Inter, "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -20,7 +20,7 @@
 .card__list-item {
   display: flex;
   margin-top: 16px;
-  font-family: Noto, "Arial", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   gap: 10px;
 }
 

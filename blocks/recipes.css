@@ -18,10 +18,10 @@
 }
 
 .recipes__subtitle {
-  padding-top: 24 0px 0px 80px;
+  padding: 24px 0px 0px 80px;
   margin: 0px;
   max-width: 438px;
-  font-family: Noto, "Arial", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -50,7 +50,7 @@
 }
 
 .recipes__video-caption {
-  font-family: Inter, "Times New Roman", serif;
+  font-family: Inter, "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
